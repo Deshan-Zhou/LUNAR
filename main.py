@@ -56,7 +56,7 @@ class DTIPredict:
         auc_set=[]
         aupr_set=[]
 
-        for x in range(1):
+        for x in range(10):
 
             print("epoch:",str(x))
             whole_positive_index = []

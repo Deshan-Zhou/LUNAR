@@ -20,7 +20,7 @@ flags.DEFINE_integer('dim_proj1', 512, 'The dimension of Project matrix1')
 flags.DEFINE_float('reconstruct_lr', 0.001, 'The learning rate for reconstruct loss')
 flags.DEFINE_float('dropout', 0.0,'The prossibility of miss')
 
-flags.DEFINE_integer('step', 1, 'The number of Train step')
+flags.DEFINE_integer('step', 3000, 'The number of Train step')
 
 flags.DEFINE_string('path', 'data/', 'The relative path of data')
 
